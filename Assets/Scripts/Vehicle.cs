@@ -5,7 +5,8 @@ using UnityEngine;
 
 public abstract class Vehicle : MonoBehaviour
 {
-    private float m_RotationSpeed = 0.5f;
+    // ENCAPSULATION
+    private float m_RotationSpeed = 20f;
     protected float RotationSpeed
     {
         get { return m_RotationSpeed;}
